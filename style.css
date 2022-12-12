@@ -1,0 +1,40 @@
+body{
+    background-color: #333;
+}
+.img {
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    object-fit: cover;
+}
+img {
+    object-fit: cover;
+    height: 100%;
+    transition: .5s linear;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.btn button{
+    cursor: pointer;
+}
+.control{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.imgShow img{
+    height: auto;
+    width: 20%;
+    opacity: .4;
+    transform: scale(.8);
+}
+.imgShow img.active{
+    opacity: 1;
+    transform: scale(1);
+}
